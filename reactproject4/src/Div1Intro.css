@@ -1,0 +1,19 @@
+.container {
+    display: flex; /* Use flexbox to align items side by side */
+    align-items: flex-start; /* Align items at the start */
+    margin: 20px; /* Add some margin */
+}
+
+.side-image {
+    width: 300px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 100px; /* Space between the image and text */
+    border-radius: 35%;
+}
+
+.text-content {
+    max-width: 500px; /* Limit the width of the text content */
+   
+   /* color: #282c34;*/
+    color: #b5c2dd;
+}

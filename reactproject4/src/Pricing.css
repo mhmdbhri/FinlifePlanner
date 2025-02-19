@@ -1,0 +1,121 @@
+﻿/* General Styling */
+.pricing-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.pricing-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.pricing-header p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Pricing Grid */
+.pricing-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .pricing-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .pricing-card.popular {
+        border: 2px solid #007bff;
+        position: relative;
+    }
+
+.popular-badge {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #007bff;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.card-header {
+    margin-bottom: 20px;
+}
+
+    .card-header h3 {
+        font-size: 1.8rem;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .card-header .price {
+        font-size: 2rem;
+        color: #007bff;
+        font-weight: bold;
+    }
+
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+    .features-list li {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+        .features-list li::before {
+            content: "✔";
+            color: #007bff;
+            margin-right: 10px;
+        }
+
+.plan-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+    .plan-button:hover {
+        background: #0056b3;
+    }
+
+    .plan-button.popular-button {
+        background: #28a745;
+    }
+
+        .plan-button.popular-button:hover {
+            background: #218838;
+        }

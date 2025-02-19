@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.784122">
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="src\images\.vs\images\FileContentIndex\156050cc-2172-458e-974d-855dff349838.vsidx" />
+    <None Include="src\images\.vs\images\FileContentIndex\9b5ba44c-9add-4eca-9157-4c353661db49.vsidx" />
+    <None Include="src\images\.vs\images\FileContentIndex\read.lock" />
+    <None Include="src\images\.vs\ProjectSettings.json" />
+    <None Include="src\images\.vs\slnx.sqlite" />
+    <None Include="src\images\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\images\.vs\images\FileContentIndex\merges\" />
+    <Folder Include="src\images\.vs\images\v17\" />
+  </ItemGroup>
+</Project>

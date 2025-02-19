@@ -1,0 +1,20 @@
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Align items vertically centered */
+    margin: 20px; /* Optional: margin for the container */
+}
+
+.side-image {
+    width: 300px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius:35%; /* Make the image rounded */
+    margin-left: 20px; /* Space between image and text */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+.text-content {
+    color: #ff5733; /* Change this to your desired color */
+    font-size: 16px; /* Optional: set font size */
+    margin-right: 100px; /* Space between text and container edge */
+}
